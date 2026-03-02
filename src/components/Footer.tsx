@@ -1,5 +1,6 @@
 "use client";
 
+import { useState } from "react";
 import { useTranslations } from "next-intl";
 import { motion } from "framer-motion";
 
@@ -9,7 +10,6 @@ import { motion } from "framer-motion";
 
 const navItems = [
   { key: "home", href: "#home" },
-  { key: "howItWorks", href: "#how-it-works" },
   { key: "about", href: "#about" },
   { key: "sessions", href: "#sessions" },
   { key: "testimonials", href: "#testimonials" },
@@ -34,20 +34,12 @@ const fadeUp = {
 };
 
 // ---------------------------------------------------------------------------
-// Instagram SVG icon
+// SVG Icons
 // ---------------------------------------------------------------------------
 
 function InstagramIcon({ className }: { className?: string }) {
   return (
-    <svg
-      className={className}
-      viewBox="0 0 24 24"
-      fill="none"
-      stroke="currentColor"
-      strokeWidth={1.5}
-      strokeLinecap="round"
-      strokeLinejoin="round"
-    >
+    <svg className={className} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.5} strokeLinecap="round" strokeLinejoin="round">
       <rect x="2" y="2" width="20" height="20" rx="5" />
       <circle cx="12" cy="12" r="5" />
       <circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none" />
@@ -55,42 +47,18 @@ function InstagramIcon({ className }: { className?: string }) {
   );
 }
 
-// ---------------------------------------------------------------------------
-// Mail SVG icon
-// ---------------------------------------------------------------------------
-
 function MailIcon({ className }: { className?: string }) {
   return (
-    <svg
-      className={className}
-      viewBox="0 0 24 24"
-      fill="none"
-      stroke="currentColor"
-      strokeWidth={1.5}
-      strokeLinecap="round"
-      strokeLinejoin="round"
-    >
+    <svg className={className} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.5} strokeLinecap="round" strokeLinejoin="round">
       <rect x="2" y="4" width="20" height="16" rx="3" />
       <path d="M2 7l10 7 10-7" />
     </svg>
   );
 }
 
-// ---------------------------------------------------------------------------
-// Phone SVG icon
-// ---------------------------------------------------------------------------
-
 function PhoneIcon({ className }: { className?: string }) {
   return (
-    <svg
-      className={className}
-      viewBox="0 0 24 24"
-      fill="none"
-      stroke="currentColor"
-      strokeWidth={1.5}
-      strokeLinecap="round"
-      strokeLinejoin="round"
-    >
+    <svg className={className} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.5} strokeLinecap="round" strokeLinejoin="round">
       <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z" />
     </svg>
   );
@@ -116,6 +84,16 @@ function scrollToSection(href: string) {
 
 export default function Footer() {
   const t = useTranslations();
+  const [email, setEmail] = useState("");
+  const [subscribed, setSubscribed] = useState(false);
+
+  const handleNewsletter = (e: React.FormEvent) => {
+    e.preventDefault();
+    if (email) {
+      setSubscribed(true);
+      setEmail("");
+    }
+  };
 
   return (
     <footer className="relative bg-deep-blue overflow-hidden">
@@ -128,14 +106,14 @@ export default function Footer() {
       {/* Main footer content */}
       <div className="relative mx-auto max-w-7xl px-6 lg:px-8 pt-16 pb-8 md:pt-20 md:pb-10">
         <div className="grid gap-12 md:grid-cols-12 lg:gap-16">
-          {/* Column 1: Brand & description */}
+          {/* Column 1: Brand & newsletter */}
           <motion.div
             variants={fadeUp}
             initial="hidden"
             whileInView="visible"
             viewport={{ once: true, margin: "-50px" }}
             custom={0}
-            className="md:col-span-4"
+            className="md:col-span-5"
           >
             <button
               onClick={() => scrollToSection("#home")}
@@ -150,6 +128,33 @@ export default function Footer() {
             <p className="mt-5 max-w-xs text-sm leading-relaxed text-white/50">
               {t("footer.description")}
             </p>
+
+            {/* Newsletter signup */}
+            <div className="mt-8">
+              <p className="mb-3 text-xs font-semibold uppercase tracking-[0.2em] text-white/30">
+                {t("footer.newsletter")}
+              </p>
+              {subscribed ? (
+                <p className="text-sm text-rose-light">{t("footer.newsletterSuccess")}</p>
+              ) : (
+                <form onSubmit={handleNewsletter} className="flex gap-2">
+                  <input
+                    type="email"
+                    required
+                    value={email}
+                    onChange={(e) => setEmail(e.target.value)}
+                    placeholder={t("footer.newsletterPlaceholder")}
+                    className="flex-1 rounded-lg border border-white/10 bg-white/5 px-4 py-2.5 text-sm text-white placeholder:text-white/30 focus:border-rose/40 focus:outline-none focus:ring-1 focus:ring-rose/20 transition-all duration-300"
+                  />
+                  <button
+                    type="submit"
+                    className="rounded-lg bg-rose px-4 py-2.5 text-sm font-medium text-white transition-colors duration-200 hover:bg-rose-dark"
+                  >
+                    {t("footer.newsletterButton")}
+                  </button>
+                </form>
+              )}
+            </div>
 
             {/* Social link */}
             <div className="mt-6">
@@ -172,12 +177,12 @@ export default function Footer() {
             whileInView="visible"
             viewport={{ once: true, margin: "-50px" }}
             custom={0.1}
-            className="md:col-span-4"
+            className="md:col-span-3"
           >
             <h3 className="mb-5 text-xs font-semibold uppercase tracking-[0.2em] text-white/30">
               {t("footer.navigation")}
             </h3>
-            <nav className="grid grid-cols-2 gap-x-6 gap-y-3">
+            <nav className="flex flex-col gap-3">
               {navItems.map((item) => (
                 <button
                   key={item.key}
@@ -255,24 +260,12 @@ export default function Footer() {
           className="mt-8 flex flex-col items-center gap-4 md:flex-row md:justify-between"
         >
           <p className="text-xs text-white/35">
-            &copy; 2026 Clayrety. {t("footer.rights")}
+            &copy; {new Date().getFullYear()} Clayrety. {t("footer.rights")}
           </p>
 
-          <div className="flex items-center gap-6">
-            <a
-              href="#"
-              className="text-xs text-white/35 transition-colors duration-200 hover:text-rose/70"
-            >
-              {t("footer.privacy")}
-            </a>
-            <span className="h-3 w-px bg-white/15" />
-            <a
-              href="#"
-              className="text-xs text-white/35 transition-colors duration-200 hover:text-rose/70"
-            >
-              {t("footer.terms")}
-            </a>
-          </div>
+          <p className="text-xs text-white/25">
+            {t("footer.privacy")} &middot; {t("footer.terms")}
+          </p>
         </motion.div>
       </div>
     </footer>

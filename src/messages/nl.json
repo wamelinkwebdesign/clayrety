@@ -11,7 +11,7 @@
   "hero": {
     "eyebrow": "Himalaya Klankschaalsessies in Amsterdam",
     "title": "Vind stilte in klank",
-    "subtitle": "Ervaar diepe ontspanning door de helende trillingen van authentieke Himalaya klankschalen. Geen ervaring nodig — kom zoals je bent.",
+    "subtitle": "Ga liggen. Sluit je ogen. Laat de oeroude trillingen van Himalaya klankschalen door je heen stromen. Geen inspanning nodig — alleen overgave.",
     "cta": "Ervaar het zelf",
     "secondaryCta": "Of bekijk de sessies",
     "scrollDown": "Ontdek meer"
@@ -41,7 +41,7 @@
     "sessions": "500+",
     "sessionsLabel": "sessies gegeven",
     "quote": "Het is alles wat je niet wist dat je nodig hebt.",
-    "quoteAuthor": "— Jeantine & Mark",
+    "quoteAuthor": "Jeantine & Mark",
     "trained": "Opgeleid in Nepal",
     "trainedLabel": "Himalaya traditie"
   },
@@ -68,9 +68,10 @@
   "about": {
     "badge": "Over Clayret",
     "title": "Wie is Clayret?",
-    "paragraph1": "Ik ben geboren en opgegroeid in Colombia. Een deel van mijn levenspad heb ik op Aruba bewandeld, en sinds jaren leef en beweeg ik in de energiestroom van Amsterdam.",
-    "paragraph2": "Door mijn bewondering voor de Universele Energieën en de intelligentie van ons biologisch lichaam, ben ik naar het Himalaya gebied van Nepal/Ladakh Noord-India gereisd, waar ik professioneel met klankschalen heb leren spelen.",
-    "paragraph3": "Ik vul de sessies aan door vele magische muziekinstrumenten te gebruiken, waardoor je een bijzondere innerlijke reis beleeft.",
+    "paragraph1": "Geboren in de warmte van Colombia, gevormd door de oceaanlucht van Aruba, en nu geworteld in de bruisende energie van Amsterdam — Clayret draagt een rijk weefsel van culturen en tradities met zich mee dat elke sessie vult met diepgang en ziel.",
+    "paragraph2": "Gedreven door een diepe eerbied voor universele energieen en de wijsheid van het lichaam, reisde Clayret naar de Himalaya-regio's van Nepal en Ladakh in Noord-India om de eeuwenoude kunst van klankhealing te bestuderen. Gedurende jaren van toegewijde training onder traditionele meesters leerde zij de schalen niet alleen als instrumenten te bespelen, maar als kanalen voor transformatie — een eeuwenoude lijn eerbiedigend die klank als heilig medicijn beschouwt.",
+    "paragraph3": "Elke sessie is een symfonie van zorgvuldig gekozen instrumenten: eeuwenoude Himalaya klankschalen, een krachtige gong, delicate chimes, een rustgevende rainstick en andere betoverende instrumenten — allemaal verweven door Clayrets unieke methodiek, waardoor een immersief klanklandschap ontstaat dat evenzeer gevoeld als gehoord wordt.",
+    "paragraph4": "Clayret gelooft dat geen twee sessies ooit hetzelfde zouden moeten zijn. Ze werkt intuïtief, leest de energie van elke persoon en elke ruimte, en laat de schalen haar leiden naar precies wat er op dat moment nodig is. Het is deze diep persoonlijke aanpak die elk bezoek tot een unieke ervaring maakt.",
     "location": "Amsterdam, Nederland"
   },
   "sessions": {
@@ -82,13 +83,14 @@
     "perSession": "per sessie",
     "duration": "min",
     "maxPersons": "max. {count} personen",
+    "maxPerson": "max. {count} persoon",
     "bookNow": "Kies deze sessie",
     "items": {
       "group": {
         "category": "Connectie",
         "title": "Groepssessie",
         "price": "35",
-        "description": "Deel de kracht van klank met anderen in een intieme groepssessie. Maximaal 5 personen voor een persoonlijke ervaring.",
+        "description": "Ga liggen tussen gelijkgestemde zielen terwijl eeuwenoude Himalaya klankschalen je in diepe stilte begeleiden. Een gedeelde reis van overgave en herstel.",
         "duration": "90",
         "maxPersons": "5"
       },
@@ -96,7 +98,7 @@
         "category": "Bezinning",
         "title": "Privésessie",
         "price": "65",
-        "description": "Een volledig op jou afgestemde 1-op-1 sessie voor diepe persoonlijke ontspanning en healing.",
+        "description": "Een sessie die volledig om jou draait. Dieper, persoonlijker, transformerender. De ultieme reset voor lichaam en geest.",
         "duration": "90",
         "maxPersons": "1"
       },
@@ -104,7 +106,7 @@
         "category": "Ceremonies",
         "title": "Volle Maan Ceremonie",
         "price": "35",
-        "description": "Een magische ceremonie onder de energie van de volle maan. Een bijzondere ervaring van verbinding en loslaten.",
+        "description": "Benut de energie van de volle maan in een heilige ceremonie van klank, intentie en loslaten. Een werkelijk onvergetelijke avond.",
         "duration": "90",
         "maxPersons": "5"
       },
@@ -112,7 +114,7 @@
         "category": "Verdieping",
         "title": "Cacao Ceremonie",
         "price": "45",
-        "description": "Combineer de kracht van ceremoniële cacao met klankschalen voor een hartopenende ervaring.",
+        "description": "Ceremoniële cacao opent het hart. Klankschalen brengen de geest tot rust. Samen creëren ze een diepgaande innerlijke reis.",
         "duration": "90",
         "maxPersons": "5"
       },
@@ -120,7 +122,7 @@
         "category": "Ontspanning",
         "title": "Holistische Massage",
         "price": "85",
-        "description": "Een diepe, holistische massage. Ook beschikbaar als zwangerschaps- of mama massage.",
+        "description": "Helende handen ontmoeten helend geluid. Een diep voedende holistische massage, ook beschikbaar als zwangerschapsmassage.",
         "duration": "90",
         "maxPersons": "1"
       },
@@ -128,7 +130,7 @@
         "category": "Empowerment",
         "title": "Drum Circle Cacao Ceremonie",
         "price": "45",
-        "description": "Een krachtige combinatie van drummen en cacao voor een transformatieve groepservaring.",
+        "description": "Vind je ritme. Voel de kracht. Een transformatieve avond van drummen, cacao en collectieve energie.",
         "duration": "120",
         "maxPersons": "8"
       }
@@ -209,6 +211,18 @@
       {
         "question": "Hoe vaak zou ik moeten komen?",
         "answer": "Dat is helemaal aan jou. Sommige gasten komen maandelijks als vast ritueel, anderen bij behoefte. Al na één sessie voel je het verschil."
+      },
+      {
+        "question": "Wat maakt Clayrety anders?",
+        "answer": "Het begint bij Clayret zelf — jarenlang opgeleid in de Himalaya-traditie in Nepal, brengt ze een authenticiteit en diepgang die je gewoon voelt. De sessies vinden plaats in haar intieme tuinhuis in Amsterdam, waar elk detail met zorg is voorbereid. Ze combineert eeuwenoude klankschalen met gongs, chimes, rainsticks en andere instrumenten tot een gelaagd klanklandschap dat uniek is voor haar. Maar bovenal is het de persoonlijke aanpak: Clayret leest de energie in de ruimte en stemt elke sessie af op het moment, waardoor elke sessie werkelijk uniek is."
+      },
+      {
+        "question": "Kan dit helpen bij angst of burn-out?",
+        "answer": "Absoluut. De trillingen van de klankschalen kalmeren direct het zenuwstelsel en brengen je lichaam van een staat van stress naar diepe rust. Veel van onze gasten komen specifiek voor verlichting bij angst, burn-out of chronische stress — en ervaren consequent dat ze zich lichter, rustiger en meer geaard voelen na afloop. Hoewel klankhealing geen vervanging is voor medische behandeling, is het een krachtige aanvulling op je welzijn."
+      },
+      {
+        "question": "Wat als ik sceptisch ben?",
+        "answer": "Je bent van harte welkom. Er is geen geloofsovertuiging of spirituele achtergrond nodig. De trillingen van de klankschalen werken op puur fysiek niveau — de geluidsgolven resoneren door je lichaam, vertragen je hartslag en kalmeren je zenuwstelsel. Of je het nu ziet als energetische healing of simpelweg als diepe akoestische ontspanning, het effect is hetzelfde. Kom met een open blik en laat de ervaring voor zich spreken."
       }
     ],
     "callout": "Nog een vraag?",
@@ -247,7 +261,9 @@
     "location": "Locatie",
     "locationValue": "Amsterdam",
     "instagram": "Instagram",
-    "instagramHandle": "@clayrety"
+    "instagramHandle": "@clayrety",
+    "whatsapp": "WhatsApp",
+    "whatsappValue": "Stuur een bericht"
   },
   "stickyCta": {
     "label": "Boek nu",
@@ -257,8 +273,12 @@
     "description": "Himalaya Klankschaalsessies in Amsterdam. Diepe ontspanning en innerlijke rust door de kracht van klankschalen.",
     "navigation": "Navigatie",
     "contact": "Contact",
+    "newsletter": "Blijf geïnspireerd",
+    "newsletterPlaceholder": "Je e-mailadres",
+    "newsletterButton": "Aanmelden",
+    "newsletterSuccess": "Bedankt! Je hoort snel van ons.",
     "rights": "Alle rechten voorbehouden.",
-    "privacy": "Privacybeleid",
-    "terms": "Algemene voorwaarden"
+    "privacy": "Privacy",
+    "terms": "Voorwaarden"
   }
 }

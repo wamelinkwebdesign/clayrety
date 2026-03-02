@@ -239,9 +239,9 @@ export default function Sessions() {
                       />
                     </svg>
                     <span>
-                      {t("sessions.maxPersons", {
-                        count: t(`sessions.items.${key}.maxPersons`),
-                      })}
+                      {Number(t(`sessions.items.${key}.maxPersons`)) === 1
+                        ? t("sessions.maxPerson", { count: t(`sessions.items.${key}.maxPersons`) })
+                        : t("sessions.maxPersons", { count: t(`sessions.items.${key}.maxPersons`) })}
                     </span>
                   </div>
                 </div>

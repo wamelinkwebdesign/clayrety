@@ -11,7 +11,7 @@
   "hero": {
     "eyebrow": "Himalayan Sound Bowl Sessions in Amsterdam",
     "title": "Find stillness in sound",
-    "subtitle": "Experience deep relaxation through the healing vibrations of authentic Himalayan sound bowls. No experience needed — come as you are.",
+    "subtitle": "Lie down. Close your eyes. Let the ancient vibrations of Himalayan sound bowls wash through you. No effort needed — just surrender.",
     "cta": "Experience it yourself",
     "secondaryCta": "Or view the sessions",
     "scrollDown": "Discover more"
@@ -41,7 +41,7 @@
     "sessions": "500+",
     "sessionsLabel": "sessions given",
     "quote": "It's everything you didn't know you needed.",
-    "quoteAuthor": "— Jeantine & Mark",
+    "quoteAuthor": "Jeantine & Mark",
     "trained": "Trained in Nepal",
     "trainedLabel": "Himalayan tradition"
   },
@@ -68,9 +68,10 @@
   "about": {
     "badge": "About Clayret",
     "title": "Who is Clayret?",
-    "paragraph1": "I was born and raised in Colombia. Part of my life path I walked in Aruba, and for years I have been living and moving in the energy flow of Amsterdam.",
-    "paragraph2": "Through my admiration for Universal Energies and the intelligence of our biological body, I traveled to the Himalayan region of Nepal/Ladakh North India, where I learned to play sound bowls professionally.",
-    "paragraph3": "I complement the sessions by using many magical musical instruments, allowing you to experience a special inner journey.",
+    "paragraph1": "Born in the warmth of Colombia, shaped by the ocean air of Aruba, and now rooted in the vibrant energy of Amsterdam — Clayret carries a rich tapestry of cultures and traditions that infuse every session with depth and soul.",
+    "paragraph2": "Drawn by a deep reverence for universal energies and the wisdom of the body, Clayret journeyed to the Himalayan regions of Nepal and Ladakh in Northern India to study the ancient art of sound healing. Over years of dedicated training under traditional masters, she learned to play the bowls not just as instruments, but as channels for transformation — honouring a centuries-old lineage that treats sound as sacred medicine.",
+    "paragraph3": "Each session is a symphony of carefully chosen instruments: ancient Himalayan singing bowls, a powerful gong, delicate chimes, a soothing rainstick, and other enchanting tools — all woven together through Clayret's unique methodology, creating an immersive soundscape that is felt as much as it is heard.",
+    "paragraph4": "Clayret believes that no two sessions should ever be the same. She works intuitively, reading the energy of every person and every room, allowing the bowls to guide her to exactly what is needed in that moment. It is this deeply personal approach that makes every visit a one-of-a-kind experience.",
     "location": "Amsterdam, The Netherlands"
   },
   "sessions": {
@@ -82,13 +83,14 @@
     "perSession": "per session",
     "duration": "min",
     "maxPersons": "max. {count} persons",
+    "maxPerson": "max. {count} person",
     "bookNow": "Choose this session",
     "items": {
       "group": {
         "category": "Connection",
         "title": "Group Session",
         "price": "35",
-        "description": "Share the power of sound with others in an intimate group session. Maximum 5 people for a personal experience.",
+        "description": "Lie back among kindred spirits as ancient Himalayan bowls guide you into deep stillness. A shared journey of surrender and restoration.",
         "duration": "90",
         "maxPersons": "5"
       },
@@ -96,7 +98,7 @@
         "category": "Reflection",
         "title": "Private Session",
         "price": "65",
-        "description": "A fully personalized 1-on-1 session for deep personal relaxation and healing.",
+        "description": "A session crafted entirely around you. Deeper, more personal, more transformative. The ultimate reset for body and mind.",
         "duration": "90",
         "maxPersons": "1"
       },
@@ -104,7 +106,7 @@
         "category": "Ceremonies",
         "title": "Full Moon Ceremony",
         "price": "35",
-        "description": "A magical ceremony under the energy of the full moon. A special experience of connection and letting go.",
+        "description": "Harness the energy of the full moon in a sacred ceremony of sound, intention, and release. A truly unforgettable night.",
         "duration": "90",
         "maxPersons": "5"
       },
@@ -112,7 +114,7 @@
         "category": "Deepening",
         "title": "Cacao Ceremony",
         "price": "45",
-        "description": "Combine the power of ceremonial cacao with sound bowls for a heart-opening experience.",
+        "description": "Ceremonial cacao opens the heart. Sound bowls quiet the mind. Together, they create a profound inner journey.",
         "duration": "90",
         "maxPersons": "5"
       },
@@ -120,7 +122,7 @@
         "category": "Relaxation",
         "title": "Holistic Massage",
         "price": "85",
-        "description": "A deep, holistic massage. Also available as pregnancy or mama massage.",
+        "description": "Healing hands meet healing sound. A deeply nourishing holistic massage, also available as pregnancy massage.",
         "duration": "90",
         "maxPersons": "1"
       },
@@ -128,7 +130,7 @@
         "category": "Empowerment",
         "title": "Drum Circle Cacao Ceremony",
         "price": "45",
-        "description": "A powerful combination of drumming and cacao for a transformative group experience.",
+        "description": "Find your rhythm. Feel the power. A transformative evening of drumming, cacao, and collective energy.",
         "duration": "120",
         "maxPersons": "8"
       }
@@ -209,6 +211,18 @@
       {
         "question": "How often should I come?",
         "answer": "That's entirely up to you. Some guests come monthly as a fixed ritual, others as needed. You'll feel the difference after just one session."
+      },
+      {
+        "question": "What makes Clayrety different?",
+        "answer": "It starts with Clayret herself — trained for years in the Himalayan tradition in Nepal, she brings an authenticity and depth that you simply feel. Sessions take place in her intimate garden house in Amsterdam, where every detail is prepared with care. She combines ancient singing bowls with gongs, chimes, rainsticks, and other instruments into a layered soundscape that is uniquely hers. But above all, it's the personal touch: Clayret reads the energy in the room and intuits every session in the moment, making each one truly one of a kind."
+      },
+      {
+        "question": "Can this help with anxiety or burnout?",
+        "answer": "Absolutely. The vibrations of the sound bowls directly calm the nervous system, shifting your body from a state of stress into deep rest. Many of our guests come specifically for relief from anxiety, burnout, or chronic stress — and consistently report feeling lighter, calmer, and more grounded afterwards. While sound healing is not a substitute for medical treatment, it is a powerful complement to your wellbeing."
+      },
+      {
+        "question": "What if I'm skeptical?",
+        "answer": "You are very welcome. No belief system or spiritual background is required. The vibrations of the singing bowls work on a purely physical level — the sound waves resonate through your body, slow your heart rate, and calm your nervous system. Whether you see it as energy healing or simply as deep acoustic relaxation, the effect is the same. Come with an open mind and let the experience speak for itself."
       }
     ],
     "callout": "Still have a question?",
@@ -247,7 +261,9 @@
     "location": "Location",
     "locationValue": "Amsterdam",
     "instagram": "Instagram",
-    "instagramHandle": "@clayrety"
+    "instagramHandle": "@clayrety",
+    "whatsapp": "WhatsApp",
+    "whatsappValue": "Send a message"
   },
   "stickyCta": {
     "label": "Book now",
@@ -257,8 +273,12 @@
     "description": "Himalayan Sound Bowl Sessions in Amsterdam. Deep relaxation and inner peace through the power of sound bowls.",
     "navigation": "Navigation",
     "contact": "Contact",
+    "newsletter": "Stay inspired",
+    "newsletterPlaceholder": "Your email address",
+    "newsletterButton": "Subscribe",
+    "newsletterSuccess": "Thank you! You'll hear from us soon.",
     "rights": "All rights reserved.",
-    "privacy": "Privacy Policy",
-    "terms": "Terms & Conditions"
+    "privacy": "Privacy",
+    "terms": "Terms"
   }
 }

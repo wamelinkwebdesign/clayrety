@@ -136,6 +136,16 @@ export default function About() {
               >
                 {t("about.paragraph3")}
               </motion.p>
+
+              <motion.p
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true, margin: "-80px" }}
+                transition={{ duration: 0.6, delay: 0.75 }}
+                className="text-lg italic leading-relaxed text-deep-blue/65 md:text-xl md:leading-relaxed"
+              >
+                {t("about.paragraph4")}
+              </motion.p>
             </div>
 
             {/* Decorative closing quote accent */}

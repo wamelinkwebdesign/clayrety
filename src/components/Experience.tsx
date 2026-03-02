@@ -5,7 +5,7 @@ import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
 
 // ---------------------------------------------------------------------------
-// SVG Icons
+// SVG Icons for timeline steps
 // ---------------------------------------------------------------------------
 
 function TeaCupIcon() {
@@ -18,59 +18,13 @@ function TeaCupIcon() {
       xmlns="http://www.w3.org/2000/svg"
       className="text-gold"
     >
-      {/* Steam wisps */}
-      <path
-        d="M12 8C12 8 13 4 12 2"
-        stroke="currentColor"
-        strokeWidth="1.5"
-        strokeLinecap="round"
-        opacity="0.5"
-      />
-      <path
-        d="M16 7C16 7 17 3 16 1"
-        stroke="currentColor"
-        strokeWidth="1.5"
-        strokeLinecap="round"
-        opacity="0.35"
-      />
-      <path
-        d="M20 8C20 8 21 4 20 2"
-        stroke="currentColor"
-        strokeWidth="1.5"
-        strokeLinecap="round"
-        opacity="0.5"
-      />
-      {/* Cup body */}
-      <path
-        d="M6 14H26V22C26 26.4183 22.4183 30 18 30H14C9.58172 30 6 26.4183 6 22V14Z"
-        stroke="currentColor"
-        strokeWidth="2"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      />
-      {/* Handle */}
-      <path
-        d="M26 17H28C30.2091 17 32 18.7909 32 21V21C32 23.2091 30.2091 25 28 25H26"
-        stroke="currentColor"
-        strokeWidth="2"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      />
-      {/* Saucer */}
-      <path
-        d="M4 30H28"
-        stroke="currentColor"
-        strokeWidth="2"
-        strokeLinecap="round"
-      />
-      {/* Tea liquid */}
-      <path
-        d="M9 19C11 17.5 15 20 18 18C21 16 23 19 23 19"
-        stroke="currentColor"
-        strokeWidth="1.2"
-        strokeLinecap="round"
-        opacity="0.4"
-      />
+      <path d="M12 8C12 8 13 4 12 2" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" opacity="0.5" />
+      <path d="M16 7C16 7 17 3 16 1" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" opacity="0.35" />
+      <path d="M20 8C20 8 21 4 20 2" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" opacity="0.5" />
+      <path d="M6 14H26V22C26 26.4183 22.4183 30 18 30H14C9.58172 30 6 26.4183 6 22V14Z" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M26 17H28C30.2091 17 32 18.7909 32 21V21C32 23.2091 30.2091 25 28 25H26" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4 30H28" stroke="currentColor" strokeWidth="2" strokeLinecap="round" />
+      <path d="M9 19C11 17.5 15 20 18 18C21 16 23 19 23 19" stroke="currentColor" strokeWidth="1.2" strokeLinecap="round" opacity="0.4" />
     </svg>
   );
 }
@@ -85,49 +39,12 @@ function SoundWaveIcon() {
       xmlns="http://www.w3.org/2000/svg"
       className="text-gold"
     >
-      {/* Bowl base */}
-      <path
-        d="M8 22C8 22 8 28 18 28C28 28 28 22 28 22"
-        stroke="currentColor"
-        strokeWidth="2"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      />
-      {/* Bowl rim */}
-      <path
-        d="M6 22H30"
-        stroke="currentColor"
-        strokeWidth="2"
-        strokeLinecap="round"
-      />
-      {/* Sound waves emanating upward */}
-      <path
-        d="M18 20V18"
-        stroke="currentColor"
-        strokeWidth="2"
-        strokeLinecap="round"
-      />
-      <path
-        d="M13 16C13 16 15.5 13 18 13C20.5 13 23 16 23 16"
-        stroke="currentColor"
-        strokeWidth="1.8"
-        strokeLinecap="round"
-        opacity="0.7"
-      />
-      <path
-        d="M10 12C10 12 13 8 18 8C23 8 26 12 26 12"
-        stroke="currentColor"
-        strokeWidth="1.5"
-        strokeLinecap="round"
-        opacity="0.5"
-      />
-      <path
-        d="M7 8C7 8 11 3 18 3C25 3 29 8 29 8"
-        stroke="currentColor"
-        strokeWidth="1.2"
-        strokeLinecap="round"
-        opacity="0.3"
-      />
+      <path d="M8 22C8 22 8 28 18 28C28 28 28 22 28 22" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M6 22H30" stroke="currentColor" strokeWidth="2" strokeLinecap="round" />
+      <path d="M18 20V18" stroke="currentColor" strokeWidth="2" strokeLinecap="round" />
+      <path d="M13 16C13 16 15.5 13 18 13C20.5 13 23 16 23 16" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" opacity="0.7" />
+      <path d="M10 12C10 12 13 8 18 8C23 8 26 12 26 12" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" opacity="0.5" />
+      <path d="M7 8C7 8 11 3 18 3C25 3 29 8 29 8" stroke="currentColor" strokeWidth="1.2" strokeLinecap="round" opacity="0.3" />
     </svg>
   );
 }
@@ -142,28 +59,49 @@ function HeartIcon() {
       xmlns="http://www.w3.org/2000/svg"
       className="text-gold"
     >
-      <path
-        d="M18 31S5 23 5 14.5C5 10.36 8.36 7 12.5 7C14.54 7 16.47 7.99 18 9.5C19.53 7.99 21.46 7 23.5 7C27.64 7 31 10.36 31 14.5C31 23 18 31 18 31Z"
-        stroke="currentColor"
-        strokeWidth="2"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      />
-      <path
-        d="M18 25S10 20 10 15C10 12.79 11.79 11 14 11C15.11 11 16.12 11.53 18 12.5C19.88 11.53 20.89 11 22 11C24.21 11 26 12.79 26 15C26 20 18 25 18 25Z"
-        fill="currentColor"
-        opacity="0.2"
-      />
+      <path d="M18 31S5 23 5 14.5C5 10.36 8.36 7 12.5 7C14.54 7 16.47 7.99 18 9.5C19.53 7.99 21.46 7 23.5 7C27.64 7 31 10.36 31 14.5C31 23 18 31 18 31Z" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M18 25S10 20 10 15C10 12.79 11.79 11 14 11C15.11 11 16.12 11.53 18 12.5C19.88 11.53 20.89 11 22 11C24.21 11 26 12.79 26 15C26 20 18 25 18 25Z" fill="currentColor" opacity="0.2" />
+    </svg>
+  );
+}
+
+// Icons for benefit cards
+function WaveIcon() {
+  return (
+    <svg width="28" height="28" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" className="text-rose">
+      <path d="M4 16C4 16 6 10 8 10C10 10 12 22 14 22C16 22 18 10 20 10C22 10 24 22 26 22C28 22 28 16 28 16" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M4 22C4 22 6 18 8 18C10 18 12 26 14 26C16 26 18 18 20 18C22 18 24 26 26 26C28 26 28 22 28 22" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" opacity="0.5" />
+    </svg>
+  );
+}
+
+function ChakraIcon() {
+  return (
+    <svg width="28" height="28" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" className="text-rose">
+      <circle cx="16" cy="16" r="11" stroke="currentColor" strokeWidth="2" />
+      <circle cx="16" cy="16" r="6" stroke="currentColor" strokeWidth="2" opacity="0.7" />
+      <circle cx="16" cy="16" r="2.5" fill="currentColor" />
+    </svg>
+  );
+}
+
+function HealingIcon() {
+  return (
+    <svg width="28" height="28" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" className="text-rose">
+      <path d="M16 28S4 20 4 12.5C4 8.36 7.36 5 11.5 5C13.54 5 15.47 5.99 16 7.5C16.53 5.99 18.46 5 20.5 5C24.64 5 28 8.36 28 12.5C28 20 16 28 16 28Z" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M16 22S9 17 9 13C9 10.79 10.79 9 13 9C14.11 9 15.12 9.53 16 10.5C16.88 9.53 17.89 9 19 9C21.21 9 23 10.79 23 13C23 17 16 22 16 22Z" fill="currentColor" opacity="0.3" />
     </svg>
   );
 }
 
 // ---------------------------------------------------------------------------
-// Step data
+// Data
 // ---------------------------------------------------------------------------
 
 const stepKeys = ["arrive", "session", "after"] as const;
 const stepIcons = [TeaCupIcon, SoundWaveIcon, HeartIcon];
+const featureIcons = [WaveIcon, ChakraIcon, HealingIcon];
+const featureKeys = ["stress", "energy", "healing"] as const;
 
 // ---------------------------------------------------------------------------
 // Animation config
@@ -184,6 +122,9 @@ export default function Experience() {
 
   const stepsRef = useRef<HTMLDivElement>(null);
   const stepsInView = useInView(stepsRef, { once: true, amount: 0.2 });
+
+  const scienceRef = useRef<HTMLDivElement>(null);
+  const scienceInView = useInView(scienceRef, { once: true, amount: 0.2 });
 
   return (
     <section
@@ -266,13 +207,7 @@ export default function Experience() {
             transition={{ duration: 1.2, delay: 0.2, ease: smoothEase }}
             className="absolute top-[72px] left-[16.67%] right-[16.67%] hidden origin-left md:block"
           >
-            <div
-              className="h-0 w-full border-t-2 border-dashed border-gold/40"
-              style={{
-                backgroundImage:
-                  "repeating-linear-gradient(90deg, transparent, transparent 8px, transparent 8px, transparent 16px)",
-              }}
-            />
+            <div className="h-0 w-full border-t-2 border-dashed border-gold/40" />
           </motion.div>
 
           {/* Step cards */}
@@ -297,11 +232,7 @@ export default function Experience() {
                   <motion.span
                     initial={{ opacity: 0 }}
                     animate={stepsInView ? { opacity: 1 } : {}}
-                    transition={{
-                      duration: 0.5,
-                      delay: 0.3 + index * 0.2,
-                      ease: smoothEase,
-                    }}
+                    transition={{ duration: 0.5, delay: 0.3 + index * 0.2, ease: smoothEase }}
                     className="mb-3 text-sm font-semibold tracking-widest text-gold"
                   >
                     {stepNumber}
@@ -311,11 +242,7 @@ export default function Experience() {
                   <motion.div
                     initial={{ scale: 0.8, opacity: 0 }}
                     animate={stepsInView ? { scale: 1, opacity: 1 } : {}}
-                    transition={{
-                      duration: 0.6,
-                      delay: 0.25 + index * 0.2,
-                      ease: smoothEase,
-                    }}
+                    transition={{ duration: 0.6, delay: 0.25 + index * 0.2, ease: smoothEase }}
                     className="relative z-10 mb-6 flex h-[72px] w-[72px] items-center justify-center rounded-full bg-white shadow-md shadow-deep-blue/5 ring-4 ring-cream"
                   >
                     <Icon />
@@ -329,9 +256,78 @@ export default function Experience() {
                     <p className="text-center text-[15px] leading-relaxed text-deep-blue/70 font-body">
                       {t(`experience.steps.${key}.description`)}
                     </p>
-
-                    {/* Bottom accent line */}
                     <div className="mx-auto mt-6 h-0.5 w-10 rounded-full bg-gold/30 transition-all duration-300 group-hover:w-16 group-hover:bg-gold/60" />
+                  </div>
+                </motion.div>
+              );
+            })}
+          </div>
+        </div>
+
+        {/* ---------------------------------------------------------------- */}
+        {/* The Science — integrated from HowItWorks                        */}
+        {/* ---------------------------------------------------------------- */}
+        <div ref={scienceRef} className="mt-24 md:mt-32">
+          {/* Science heading */}
+          <motion.div
+            initial={{ opacity: 0, y: 24 }}
+            animate={scienceInView ? { opacity: 1, y: 0 } : {}}
+            transition={{ duration: 0.7, ease: smoothEase }}
+            className="mb-6 flex justify-center"
+          >
+            <span className="inline-block rounded-full border border-deep-blue/15 bg-white/70 px-5 py-2 text-sm font-medium tracking-wide text-deep-blue/70 backdrop-blur-sm">
+              {t("howItWorks.badge")}
+            </span>
+          </motion.div>
+
+          <motion.h3
+            initial={{ opacity: 0, y: 20 }}
+            animate={scienceInView ? { opacity: 1, y: 0 } : {}}
+            transition={{ duration: 0.7, delay: 0.1, ease: smoothEase }}
+            className="mx-auto mb-8 max-w-2xl text-center font-heading text-2xl font-bold text-deep-blue md:text-3xl"
+          >
+            {t("howItWorks.title")}
+          </motion.h3>
+
+          {/* Science description — compact */}
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={scienceInView ? { opacity: 1, y: 0 } : {}}
+            transition={{ duration: 0.7, delay: 0.2, ease: smoothEase }}
+            className="mx-auto mb-14 max-w-3xl"
+          >
+            <p className="text-center text-base leading-relaxed text-deep-blue/65 md:text-lg">
+              {t("howItWorks.paragraph1")}
+            </p>
+          </motion.div>
+
+          {/* Benefit cards — 3 columns */}
+          <div className="grid gap-6 md:grid-cols-3 md:gap-8">
+            {featureKeys.map((key, index) => {
+              const Icon = featureIcons[index];
+              return (
+                <motion.div
+                  key={key}
+                  initial={{ opacity: 0, y: 30 }}
+                  animate={scienceInView ? { opacity: 1, y: 0 } : {}}
+                  transition={{ duration: 0.6, delay: 0.15 * index + 0.3, ease: smoothEase }}
+                >
+                  <div className="group relative h-full rounded-2xl border border-white/80 bg-white/70 p-7 backdrop-blur-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-lg hover:shadow-rose/8">
+                    {/* Icon */}
+                    <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-xl bg-cream shadow-sm">
+                      <Icon />
+                    </div>
+
+                    <h4 className="mb-2 font-heading text-lg font-semibold text-deep-blue">
+                      {t(`howItWorks.features.${key}.title`)}
+                    </h4>
+
+                    <p className="text-sm leading-relaxed text-deep-blue/65">
+                      {t(`howItWorks.features.${key}.description`)}
+                    </p>
+
+                    {/* Bottom accent */}
+                    <div className="mt-5 h-0.5 w-10 rounded-full bg-rose-light/50 transition-all duration-300 group-hover:w-16 group-hover:bg-rose" />
                   </div>
                 </motion.div>
               );

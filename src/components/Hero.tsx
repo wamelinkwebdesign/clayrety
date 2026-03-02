@@ -60,6 +60,7 @@ export default function Hero() {
       ref={sectionRef}
       id="home"
       className="relative flex min-h-screen items-center justify-center overflow-hidden"
+      style={{ boxShadow: "inset 0 0 200px rgba(0,0,0,0.15)" }}
     >
       {/* ------------------------------------------------------------------ */}
       {/* Background image with parallax                                      */}
@@ -83,20 +84,28 @@ export default function Hero() {
         className="absolute inset-0 z-[1]"
         style={{ opacity: overlayOpacity }}
       >
-        {/* Primary deep-blue gradient */}
+        {/* Primary deep-blue gradient — warmer, richer stops */}
         <div
           className="absolute inset-0"
           style={{
             background:
-              "linear-gradient(180deg, rgba(30,38,109,0.82) 0%, rgba(30,38,109,0.60) 40%, rgba(30,38,109,0.78) 100%)",
+              "linear-gradient(180deg, rgba(30,38,109,0.88) 0%, rgba(30,38,109,0.55) 50%, rgba(30,38,109,0.85) 100%)",
           }}
         />
-        {/* Subtle warm vignette from bottom */}
+        {/* Warm golden glow from bottom-center */}
         <div
           className="absolute inset-0"
           style={{
             background:
-              "radial-gradient(ellipse at 50% 110%, rgba(223,139,163,0.18) 0%, transparent 60%)",
+              "radial-gradient(ellipse at 50% 120%, rgba(196,162,101,0.12) 0%, transparent 50%)",
+          }}
+        />
+        {/* Rose-pink atmospheric glow */}
+        <div
+          className="absolute inset-0"
+          style={{
+            background:
+              "radial-gradient(ellipse at 30% 70%, rgba(223,139,163,0.08) 0%, transparent 50%)",
           }}
         />
       </motion.div>
@@ -105,14 +114,24 @@ export default function Hero() {
       {/* Decorative elements                                                 */}
       {/* ------------------------------------------------------------------ */}
 
-      {/* Large soft ring (top-right) */}
+      {/* Large soft ring (top-right) — warm gold toned */}
       <motion.div
         variants={pulseRing}
         initial="hidden"
         animate="visible"
         custom={0.6}
-        className="absolute -top-32 -right-32 z-[2] h-[420px] w-[420px] rounded-full border border-rose-light/20 md:h-[600px] md:w-[600px]"
+        className="absolute -top-32 -right-32 z-[2] h-[420px] w-[420px] rounded-full border border-gold/15 md:h-[600px] md:w-[600px]"
         style={{ filter: "blur(1px)" }}
+      />
+
+      {/* Second subtle ring with slow rotation */}
+      <motion.div
+        variants={pulseRing}
+        initial="hidden"
+        animate="visible"
+        custom={0.8}
+        className="absolute -top-20 -right-20 z-[2] h-[340px] w-[340px] rounded-full border border-gold-light/10 animate-spin-slow md:h-[500px] md:w-[500px]"
+        style={{ filter: "blur(1.5px)" }}
       />
 
       {/* Medium ring (bottom-left) */}
@@ -121,11 +140,11 @@ export default function Hero() {
         initial="hidden"
         animate="visible"
         custom={0.9}
-        className="absolute -bottom-24 -left-24 z-[2] h-[300px] w-[300px] rounded-full border border-rose-light/15 md:h-[450px] md:w-[450px]"
+        className="absolute -bottom-24 -left-24 z-[2] h-[300px] w-[300px] rounded-full border border-gold/12 md:h-[450px] md:w-[450px]"
         style={{ filter: "blur(1px)" }}
       />
 
-      {/* Small floating accent circle */}
+      {/* Small floating accent circle — gold */}
       <motion.div
         variants={scaleIn}
         initial="hidden"
@@ -133,10 +152,10 @@ export default function Hero() {
         custom={1.2}
         className="absolute top-1/4 right-[12%] z-[2] hidden md:block"
       >
-        <div className="h-3 w-3 rounded-full bg-rose-light/40 animate-float" />
+        <div className="h-3 w-3 rounded-full bg-gold/40 animate-float" />
       </motion.div>
 
-      {/* Another floating dot */}
+      {/* Another floating dot — gold */}
       <motion.div
         variants={scaleIn}
         initial="hidden"
@@ -145,31 +164,31 @@ export default function Hero() {
         className="absolute bottom-1/3 left-[8%] z-[2] hidden md:block"
       >
         <div
-          className="h-2 w-2 rounded-full bg-rose-light/30 animate-float"
+          className="h-2 w-2 rounded-full bg-gold-light/30 animate-float"
           style={{ animationDelay: "2s" }}
         />
       </motion.div>
 
-      {/* Subtle wave / arc decoration */}
+      {/* Subtle wave / arc decoration — more prominent */}
       <motion.svg
         variants={scaleIn}
         initial="hidden"
         animate="visible"
         custom={1.0}
-        className="absolute bottom-[15%] left-[5%] z-[2] hidden w-40 opacity-[0.12] lg:block"
+        className="absolute bottom-[15%] left-[5%] z-[2] hidden w-40 opacity-[0.15] lg:block"
         viewBox="0 0 200 100"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
       >
         <path
           d="M10 80 Q50 10 100 50 T190 30"
-          stroke="#f0b5c7"
+          stroke="#C4A265"
           strokeWidth="1.5"
           strokeLinecap="round"
         />
         <path
           d="M10 90 Q60 30 110 60 T190 40"
-          stroke="#f0b5c7"
+          stroke="#d4b97e"
           strokeWidth="1"
           strokeLinecap="round"
         />
@@ -197,11 +216,12 @@ export default function Hero() {
           animate="visible"
           custom={0.4}
           className="font-heading italic text-4xl font-bold leading-[1.1] tracking-tight text-white sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl"
+          style={{ textShadow: "0 2px 40px rgba(30,38,109,0.3)" }}
         >
           <span className="block">{t("hero.title")}</span>
         </motion.h1>
 
-        {/* Decorative divider line */}
+        {/* Decorative divider line — gold */}
         <motion.div
           variants={fadeUp}
           initial="hidden"
@@ -209,9 +229,9 @@ export default function Hero() {
           custom={0.6}
           className="my-7 flex items-center gap-3 sm:my-9"
         >
-          <span className="block h-px w-10 bg-rose/50 sm:w-14" />
-          <span className="block h-1.5 w-1.5 rounded-full bg-rose" />
-          <span className="block h-px w-10 bg-rose/50 sm:w-14" />
+          <span className="block h-px w-10 bg-gold/50 sm:w-14" />
+          <span className="block h-1.5 w-1.5 rounded-full bg-gold" />
+          <span className="block h-px w-10 bg-gold/50 sm:w-14" />
         </motion.div>
 
         {/* Subtitle */}
@@ -261,7 +281,7 @@ export default function Hero() {
           </motion.a>
           <a
             href="#sessions"
-            className="mt-4 inline-block text-sm text-white/70 underline decoration-white/30 underline-offset-4 transition-colors duration-300 hover:text-rose-light hover:decoration-rose-light/50"
+            className="group/secondary mt-4 inline-block text-[15px] text-white/70 underline decoration-transparent underline-offset-4 transition-all duration-300 hover:text-gold-light hover:decoration-gold-light/60"
           >
             {t("hero.secondaryCta")} &rarr;
           </a>
@@ -277,7 +297,7 @@ export default function Hero() {
         transition={{ delay: 1.6, duration: 1.2 }}
         className="absolute bottom-8 left-1/2 z-10 -translate-x-1/2 flex flex-col items-center gap-2 sm:bottom-10"
       >
-        <span className="text-[10px] font-medium uppercase tracking-[0.3em] text-white/50">
+        <span className="text-[9px] font-medium uppercase tracking-[0.35em] text-white/50">
           {t("hero.scrollDown")}
         </span>
         <motion.div
