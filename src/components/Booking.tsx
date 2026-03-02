@@ -413,8 +413,10 @@ export default function Booking() {
                         <a
                           href={`https://wa.me/31645202299?text=${encodeURIComponent(
                             selectedSession
-                              ? `Hoi! Ik wil graag een ${t(`sessions.items.${selectedSession}.title`)} boeken${preferredDate ? ` op ${preferredDate}` : ""}.`
-                              : "Hoi! Ik wil graag een sessie boeken."
+                              ? preferredDate
+                                ? t("booking.form.whatsappMessage", { session: t(`sessions.items.${selectedSession}.title`), date: preferredDate })
+                                : t("booking.form.whatsappMessageNoDate", { session: t(`sessions.items.${selectedSession}.title`) })
+                              : t("booking.form.whatsappMessageGeneric")
                           )}`}
                           target="_blank"
                           rel="noopener noreferrer"

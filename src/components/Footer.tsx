@@ -148,8 +148,7 @@ export default function Footer() {
             </button>
 
             <p className="mt-5 max-w-xs text-sm leading-relaxed text-white/50">
-              Himalaya Klankschaalsessies in Amsterdam. Diepe ontspanning en
-              innerlijke rust door de kracht van klankschalen.
+              {t("footer.description")}
             </p>
 
             {/* Social link */}
@@ -176,7 +175,7 @@ export default function Footer() {
             className="md:col-span-4"
           >
             <h3 className="mb-5 text-xs font-semibold uppercase tracking-[0.2em] text-white/30">
-              Navigatie
+              {t("footer.navigation")}
             </h3>
             <nav className="grid grid-cols-2 gap-x-6 gap-y-3">
               {navItems.map((item) => (
@@ -201,7 +200,7 @@ export default function Footer() {
             className="md:col-span-4"
           >
             <h3 className="mb-5 text-xs font-semibold uppercase tracking-[0.2em] text-white/30">
-              Contact
+              {t("footer.contact")}
             </h3>
             <ul className="space-y-4">
               <li>

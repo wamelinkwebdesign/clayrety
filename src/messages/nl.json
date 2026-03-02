@@ -13,6 +13,7 @@
     "title": "Vind stilte in klank",
     "subtitle": "Ervaar diepe ontspanning door de helende trillingen van authentieke Himalaya klankschalen. Geen ervaring nodig — kom zoals je bent.",
     "cta": "Ervaar het zelf",
+    "secondaryCta": "Of bekijk de sessies",
     "scrollDown": "Ontdek meer"
   },
   "experience": {
@@ -231,7 +232,10 @@
       "submit": "Reservering aanvragen",
       "success": "Bedankt! Je aanvraag is verzonden. We nemen zo snel mogelijk contact op.",
       "selectSession": "Selecteer een sessie",
-      "whatsapp": "Of boek via WhatsApp"
+      "whatsapp": "Of boek via WhatsApp",
+      "whatsappMessage": "Hoi! Ik wil graag een {session} boeken op {date}.",
+      "whatsappMessageNoDate": "Hoi! Ik wil graag een {session} boeken.",
+      "whatsappMessageGeneric": "Hoi! Ik wil graag een sessie boeken."
     }
   },
   "contact": {
@@ -250,6 +254,9 @@
     "price": "vanaf €35"
   },
   "footer": {
+    "description": "Himalaya Klankschaalsessies in Amsterdam. Diepe ontspanning en innerlijke rust door de kracht van klankschalen.",
+    "navigation": "Navigatie",
+    "contact": "Contact",
     "rights": "Alle rechten voorbehouden.",
     "privacy": "Privacybeleid",
     "terms": "Algemene voorwaarden"

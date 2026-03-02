@@ -263,7 +263,7 @@ export default function Hero() {
             href="#sessions"
             className="mt-4 inline-block text-sm text-white/70 underline decoration-white/30 underline-offset-4 transition-colors duration-300 hover:text-rose-light hover:decoration-rose-light/50"
           >
-            Of bekijk de sessies &rarr;
+            {t("hero.secondaryCta")} &rarr;
           </a>
         </motion.div>
       </div>
@@ -278,7 +278,7 @@ export default function Hero() {
         className="absolute bottom-8 left-1/2 z-10 -translate-x-1/2 flex flex-col items-center gap-2 sm:bottom-10"
       >
         <span className="text-[10px] font-medium uppercase tracking-[0.3em] text-white/50">
-          Scroll
+          {t("hero.scrollDown")}
         </span>
         <motion.div
           animate={{ y: [0, 8, 0] }}
