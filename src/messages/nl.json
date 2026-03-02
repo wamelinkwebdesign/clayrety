@@ -1,0 +1,185 @@
+{
+  "nav": {
+    "home": "Home",
+    "howItWorks": "De Werking",
+    "about": "Over Clayret",
+    "sessions": "Sessies",
+    "testimonials": "Testimonials",
+    "contact": "Contact",
+    "book": "Boek nu"
+  },
+  "hero": {
+    "title": "Himalaya Klankschaalsessies",
+    "subtitle": "Klankschaalsessies brengen ons in een aangename stemming en zorgen voor meditatieve ontspanning.",
+    "cta": "Ontdek de sessies",
+    "scrollDown": "Scroll naar beneden"
+  },
+  "howItWorks": {
+    "badge": "De Werking",
+    "title": "De klankschaal in zijn werking",
+    "paragraph1": "De verschillende frequenties en klanktonen van de klankschalen hebben een harmonieus en zuiverend effect op ons lichaam, tot op celniveau. Omdat het menselijk lichaam voor ongeveer 70% uit water bestaat, veroorzaken de frequenties van de verschillende klanktonen verandering in onze energie. Blokkades verdwijnen en de energie gaat vrijer stromen.",
+    "paragraph2": "In de klankschaalsessie richt ik mijn aandacht op het energiesysteem van ons lichaam dat beïnvloed wordt door de 7 chakra's, het centrale zenuwstelsel en de ademhaling. Het doel van deze sessies is stressvermindering, loskomen van gedachten en ondersteuning bij genezingsprocessen.",
+    "features": {
+      "stress": {
+        "title": "Stressvermindering",
+        "description": "Diepe ontspanning door trillingen die het zenuwstelsel kalmeren"
+      },
+      "energy": {
+        "title": "Energiebalans",
+        "description": "Herstel van blokkades en vrije energiestroom door de chakra's"
+      },
+      "healing": {
+        "title": "Genezingsondersteuning",
+        "description": "Ondersteuning bij lichamelijke en mentale genezingsprocessen"
+      }
+    }
+  },
+  "about": {
+    "badge": "Over Clayret",
+    "title": "Wie is Clayret?",
+    "paragraph1": "Ik ben geboren en opgegroeid in Colombia. Een deel van mijn levenspad heb ik op Aruba bewandeld, en sinds jaren leef en beweeg ik in de energiestroom van Amsterdam.",
+    "paragraph2": "Door mijn bewondering voor de Universele Energieën en de intelligentie van ons biologisch lichaam, ben ik naar het Himalaya gebied van Nepal/Ladakh Noord-India gereisd, waar ik professioneel met klankschalen heb leren spelen.",
+    "paragraph3": "Ik vul de sessies aan door vele magische muziekinstrumenten te gebruiken, waardoor je een bijzondere innerlijke reis beleeft.",
+    "location": "Amsterdam, Nederland"
+  },
+  "sessions": {
+    "badge": "Sessies",
+    "title": "Ontdek onze sessies",
+    "subtitle": "Elke sessie is een unieke reis naar innerlijke rust en balans",
+    "perPerson": "p.p.",
+    "perSession": "per sessie",
+    "duration": "min",
+    "maxPersons": "max. {count} personen",
+    "bookNow": "Reserveer",
+    "items": {
+      "group": {
+        "category": "Connectie",
+        "title": "Groepssessie",
+        "price": "35",
+        "description": "Deel de kracht van klank met anderen in een intieme groepssessie. Maximaal 5 personen voor een persoonlijke ervaring.",
+        "duration": "90",
+        "maxPersons": "5"
+      },
+      "private": {
+        "category": "Bezinning",
+        "title": "Privésessie",
+        "price": "65",
+        "description": "Een volledig op jou afgestemde 1-op-1 sessie voor diepe persoonlijke ontspanning en healing.",
+        "duration": "90",
+        "maxPersons": "1"
+      },
+      "fullMoon": {
+        "category": "Ceremonies",
+        "title": "Volle Maan Ceremonie",
+        "price": "35",
+        "description": "Een magische ceremonie onder de energie van de volle maan. Een bijzondere ervaring van verbinding en loslaten.",
+        "duration": "90",
+        "maxPersons": "5"
+      },
+      "cacao": {
+        "category": "Verdieping",
+        "title": "Cacao Ceremonie",
+        "price": "45",
+        "description": "Combineer de kracht van ceremoniële cacao met klankschalen voor een hartopenende ervaring.",
+        "duration": "90",
+        "maxPersons": "5"
+      },
+      "massage": {
+        "category": "Ontspanning",
+        "title": "Holistische Massage",
+        "price": "85",
+        "description": "Een diepe, holistische massage. Ook beschikbaar als zwangerschaps- of mama massage.",
+        "duration": "90",
+        "maxPersons": "1"
+      },
+      "drumCircle": {
+        "category": "Empowerment",
+        "title": "Drum Circle Cacao Ceremonie",
+        "price": "45",
+        "description": "Een krachtige combinatie van drummen en cacao voor een transformatieve groepservaring.",
+        "duration": "120",
+        "maxPersons": "8"
+      }
+    },
+    "notice": "Let op: klankschaalsessies zijn minder geschikt bij zwangerschap, hartproblemen, een pacemaker, hoge bloeddruk, trombose of spataderen.",
+    "cancellation": "Kunt u niet komen? Laat het ons minimaal 24 uur van tevoren weten, anders moeten wij helaas de gereserveerde tijd in rekening brengen."
+  },
+  "testimonials": {
+    "badge": "Testimonials",
+    "title": "Ervaringen van onze gasten",
+    "items": [
+      {
+        "name": "Jeantine & Mark",
+        "quote": "Clayrety is de meest fantastische hostess ever... Als je binnenkomt is het al één groot warm bad... En dan het klankschalenbad. Het is alles wat je niet wist dat je nodig hebt.",
+        "highlight": "Wat een warm bad"
+      },
+      {
+        "name": "Margarita Jimenez",
+        "quote": "Clayret heeft me op reis gebracht met al haar liefde, zorg en echte aandacht. Ik ben in Tibet, India en Zuid-Amerikaanse jungle geweest!",
+        "highlight": "Op reis gebracht"
+      },
+      {
+        "name": "Linda",
+        "quote": "Een avond bij Clayret is magisch... Elke sessie is anders, maar ik kom altijd helemaal ontspannen weer naar buiten.",
+        "highlight": "Elke sessie is anders"
+      },
+      {
+        "name": "Yael",
+        "quote": "Clayret, klankschalen, een tuinhuisje, thee, soep en heel veel liefde. Een stukje paradijs op aarde.",
+        "highlight": "Paradijs op aarde"
+      },
+      {
+        "name": "Sema",
+        "quote": "Je klankschaalsessies geven mij altijd een gerust gevoel... je bereidt de ruimte voor op de mooiste manier.",
+        "highlight": "Een gerust gevoel"
+      },
+      {
+        "name": "Sabien",
+        "quote": "Clayret is meester in het creëren van een liefdevolle omgeving... Met haar klankschalen neemt ze me mee naar een staat van diepe rust.",
+        "highlight": "Diepe rust"
+      },
+      {
+        "name": "Lynne",
+        "quote": "Voor mij de perfecte combi van Spiritueel en ook down to earth... Je merkt de ervaring die Clayret heeft.",
+        "highlight": "Mijn maandelijkse zen moment"
+      },
+      {
+        "name": "Yana",
+        "quote": "De klankschalensessie bij Clayret was super fijn... Clay is super liefdevol, heel open, spiritueel en tegelijkertijd ook lekker down to earth.",
+        "highlight": "Super fijn"
+      }
+    ]
+  },
+  "booking": {
+    "badge": "Reserveren",
+    "title": "Boek je sessie",
+    "subtitle": "Kies je sessie en vind een moment dat bij je past",
+    "form": {
+      "name": "Naam",
+      "email": "E-mailadres",
+      "phone": "Telefoonnummer",
+      "session": "Kies een sessie",
+      "date": "Voorkeursdatum",
+      "message": "Bericht (optioneel)",
+      "submit": "Reservering aanvragen",
+      "success": "Bedankt! Je aanvraag is verzonden. We nemen zo snel mogelijk contact op.",
+      "selectSession": "Selecteer een sessie"
+    }
+  },
+  "contact": {
+    "badge": "Contact",
+    "title": "Neem contact op",
+    "subtitle": "Heb je vragen of wil je meer weten? Neem gerust contact op.",
+    "phone": "Telefoon",
+    "email": "E-mail",
+    "location": "Locatie",
+    "locationValue": "Amsterdam",
+    "instagram": "Instagram",
+    "instagramHandle": "@clayrety"
+  },
+  "footer": {
+    "rights": "Alle rechten voorbehouden.",
+    "privacy": "Privacybeleid",
+    "terms": "Algemene voorwaarden"
+  }
+}

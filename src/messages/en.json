@@ -1,0 +1,185 @@
+{
+  "nav": {
+    "home": "Home",
+    "howItWorks": "How It Works",
+    "about": "About Clayret",
+    "sessions": "Sessions",
+    "testimonials": "Testimonials",
+    "contact": "Contact",
+    "book": "Book now"
+  },
+  "hero": {
+    "title": "Himalayan Sound Bowl Sessions",
+    "subtitle": "Sound bowl sessions bring us into a pleasant mood and provide meditative relaxation.",
+    "cta": "Discover the sessions",
+    "scrollDown": "Scroll down"
+  },
+  "howItWorks": {
+    "badge": "How It Works",
+    "title": "The sound bowl and its effects",
+    "paragraph1": "The different frequencies and tones of the sound bowls have a harmonious and purifying effect on our body, down to the cellular level. Because the human body consists of approximately 70% water, the frequencies of the different tones cause changes in our energy. Blockages disappear and energy flows more freely.",
+    "paragraph2": "During the sound bowl session, I focus on the energy system of our body that is influenced by the 7 chakras, the central nervous system, and breathing. The goal of these sessions is stress reduction, letting go of thoughts, and support in healing processes.",
+    "features": {
+      "stress": {
+        "title": "Stress Reduction",
+        "description": "Deep relaxation through vibrations that calm the nervous system"
+      },
+      "energy": {
+        "title": "Energy Balance",
+        "description": "Restoring blockages and free energy flow through the chakras"
+      },
+      "healing": {
+        "title": "Healing Support",
+        "description": "Support for physical and mental healing processes"
+      }
+    }
+  },
+  "about": {
+    "badge": "About Clayret",
+    "title": "Who is Clayret?",
+    "paragraph1": "I was born and raised in Colombia. Part of my life path I walked in Aruba, and for years I have been living and moving in the energy flow of Amsterdam.",
+    "paragraph2": "Through my admiration for Universal Energies and the intelligence of our biological body, I traveled to the Himalayan region of Nepal/Ladakh North India, where I learned to play sound bowls professionally.",
+    "paragraph3": "I complement the sessions by using many magical musical instruments, allowing you to experience a special inner journey.",
+    "location": "Amsterdam, The Netherlands"
+  },
+  "sessions": {
+    "badge": "Sessions",
+    "title": "Discover our sessions",
+    "subtitle": "Each session is a unique journey to inner peace and balance",
+    "perPerson": "p.p.",
+    "perSession": "per session",
+    "duration": "min",
+    "maxPersons": "max. {count} persons",
+    "bookNow": "Reserve",
+    "items": {
+      "group": {
+        "category": "Connection",
+        "title": "Group Session",
+        "price": "35",
+        "description": "Share the power of sound with others in an intimate group session. Maximum 5 people for a personal experience.",
+        "duration": "90",
+        "maxPersons": "5"
+      },
+      "private": {
+        "category": "Reflection",
+        "title": "Private Session",
+        "price": "65",
+        "description": "A fully personalized 1-on-1 session for deep personal relaxation and healing.",
+        "duration": "90",
+        "maxPersons": "1"
+      },
+      "fullMoon": {
+        "category": "Ceremonies",
+        "title": "Full Moon Ceremony",
+        "price": "35",
+        "description": "A magical ceremony under the energy of the full moon. A special experience of connection and letting go.",
+        "duration": "90",
+        "maxPersons": "5"
+      },
+      "cacao": {
+        "category": "Deepening",
+        "title": "Cacao Ceremony",
+        "price": "45",
+        "description": "Combine the power of ceremonial cacao with sound bowls for a heart-opening experience.",
+        "duration": "90",
+        "maxPersons": "5"
+      },
+      "massage": {
+        "category": "Relaxation",
+        "title": "Holistic Massage",
+        "price": "85",
+        "description": "A deep, holistic massage. Also available as pregnancy or mama massage.",
+        "duration": "90",
+        "maxPersons": "1"
+      },
+      "drumCircle": {
+        "category": "Empowerment",
+        "title": "Drum Circle Cacao Ceremony",
+        "price": "45",
+        "description": "A powerful combination of drumming and cacao for a transformative group experience.",
+        "duration": "120",
+        "maxPersons": "8"
+      }
+    },
+    "notice": "Please note: sound bowl sessions are less suitable for pregnancy, heart problems, a pacemaker, high blood pressure, thrombosis, or varicose veins.",
+    "cancellation": "Cannot make it? Please let us know at least 24 hours in advance, otherwise we will unfortunately have to charge for the reserved time."
+  },
+  "testimonials": {
+    "badge": "Testimonials",
+    "title": "Experiences from our guests",
+    "items": [
+      {
+        "name": "Jeantine & Mark",
+        "quote": "Clayrety is the most fantastic hostess ever... When you walk in, it's already one big warm bath... And then the sound bowl bath. It's everything you didn't know you needed.",
+        "highlight": "What a warm bath"
+      },
+      {
+        "name": "Margarita Jimenez",
+        "quote": "Clayret took me on a journey with all her love, care, and genuine attention. I've been to Tibet, India, and the South American jungle!",
+        "highlight": "Taken on a journey"
+      },
+      {
+        "name": "Linda",
+        "quote": "An evening at Clayret's is magical... Every session is different, but I always leave completely relaxed.",
+        "highlight": "Every session is different"
+      },
+      {
+        "name": "Yael",
+        "quote": "Clayret, sound bowls, a garden house, tea, soup, and lots of love. A piece of paradise on earth.",
+        "highlight": "Paradise on earth"
+      },
+      {
+        "name": "Sema",
+        "quote": "Your sound bowl sessions always give me a sense of peace... you prepare the space in the most beautiful way.",
+        "highlight": "A sense of peace"
+      },
+      {
+        "name": "Sabien",
+        "quote": "Clayret is a master at creating a loving environment... With her sound bowls, she takes me to a state of deep rest.",
+        "highlight": "Deep rest"
+      },
+      {
+        "name": "Lynne",
+        "quote": "For me, the perfect combination of spiritual and down to earth... You can tell Clayret has experience.",
+        "highlight": "My monthly zen moment"
+      },
+      {
+        "name": "Yana",
+        "quote": "The sound bowl session at Clayret's was super nice... Clay is super loving, very open, spiritual and at the same time also nicely down to earth.",
+        "highlight": "Super nice"
+      }
+    ]
+  },
+  "booking": {
+    "badge": "Book",
+    "title": "Book your session",
+    "subtitle": "Choose your session and find a moment that suits you",
+    "form": {
+      "name": "Name",
+      "email": "Email address",
+      "phone": "Phone number",
+      "session": "Choose a session",
+      "date": "Preferred date",
+      "message": "Message (optional)",
+      "submit": "Request reservation",
+      "success": "Thank you! Your request has been sent. We will contact you as soon as possible.",
+      "selectSession": "Select a session"
+    }
+  },
+  "contact": {
+    "badge": "Contact",
+    "title": "Get in touch",
+    "subtitle": "Have questions or want to know more? Feel free to reach out.",
+    "phone": "Phone",
+    "email": "Email",
+    "location": "Location",
+    "locationValue": "Amsterdam",
+    "instagram": "Instagram",
+    "instagramHandle": "@clayrety"
+  },
+  "footer": {
+    "rights": "All rights reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms & Conditions"
+  }
+}
