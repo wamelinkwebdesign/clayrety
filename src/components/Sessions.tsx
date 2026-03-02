@@ -138,17 +138,17 @@ export default function Sessions() {
           viewport={{ once: true, margin: "-80px" }}
           className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3"
         >
-          {sessionKeys.map((key) => (
+          {sessionKeys.map((key, index) => (
             <motion.div
               key={key}
               variants={cardVariants}
-              className="group relative flex flex-col overflow-hidden rounded-2xl bg-white shadow-[0_2px_20px_-4px_rgba(30,38,109,0.08)] transition-all duration-500 hover:-translate-y-1.5 hover:shadow-[0_12px_40px_-8px_rgba(223,139,163,0.22)]"
+              className={`group relative flex flex-col overflow-hidden rounded-2xl bg-white shadow-[0_2px_20px_-4px_rgba(30,38,109,0.08)] transition-all duration-500 hover:-translate-y-1.5 hover:shadow-[0_12px_40px_-8px_rgba(223,139,163,0.22)]${index === 0 ? " sm:col-span-2" : ""}`}
             >
               {/* Rose accent bottom border on hover */}
               <div className="absolute inset-x-0 bottom-0 h-1 origin-left scale-x-0 bg-gradient-to-r from-rose to-rose-light transition-transform duration-500 group-hover:scale-x-100" />
 
               {/* Image */}
-              <div className="relative h-56 w-full overflow-hidden bg-cream">
+              <div className={`relative w-full overflow-hidden bg-cream ${key === "group" ? "h-64" : "h-56"}`}>
                 <Image
                   src={sessionImages[key]}
                   alt={t(`sessions.items.${key}.title`)}
@@ -165,6 +165,15 @@ export default function Sessions() {
                     {t(`sessions.items.${key}.category`)}
                   </span>
                 </div>
+
+                {/* Most Popular badge */}
+                {key === "group" && (
+                  <div className="absolute top-4 right-4">
+                    <span className="inline-block rounded-full px-3.5 py-1 text-xs font-semibold tracking-wide text-white shadow-sm" style={{ backgroundColor: "#C4A265" }}>
+                      {t("sessions.popular")}
+                    </span>
+                  </div>
+                )}
               </div>
 
               {/* Card body */}
@@ -250,7 +259,7 @@ export default function Sessions() {
                   href="#booking"
                   whileHover={{ scale: 1.03 }}
                   whileTap={{ scale: 0.97 }}
-                  className="mt-6 inline-flex w-full items-center justify-center gap-2 rounded-full bg-deep-blue px-6 py-3 text-sm font-semibold text-white shadow-sm transition-colors duration-300 hover:bg-rose"
+                  className={`mt-6 inline-flex w-full items-center justify-center gap-2 rounded-full px-6 py-3 text-sm font-semibold text-white shadow-sm transition-colors duration-300 ${key === "group" ? "bg-gradient-to-r from-rose to-rose-dark" : "bg-deep-blue hover:bg-rose"}`}
                 >
                   <span>{t("sessions.bookNow")}</span>
                   <svg

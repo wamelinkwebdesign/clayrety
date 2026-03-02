@@ -185,9 +185,9 @@ export default function Hero() {
           initial="hidden"
           animate="visible"
           custom={0.2}
-          className="mb-6 inline-block rounded-full border border-white/20 bg-white/5 px-5 py-1.5 text-[11px] font-medium uppercase tracking-[0.25em] text-white/80 backdrop-blur-sm sm:text-xs"
+          className="mb-6 inline-block rounded-full border border-white/20 bg-white/5 px-5 py-1.5 text-xs font-medium uppercase tracking-[0.25em] text-white/80 backdrop-blur-sm sm:text-sm"
         >
-          Clayrety
+          {t("hero.eyebrow")}
         </motion.span>
 
         {/* Main heading */}
@@ -196,7 +196,7 @@ export default function Hero() {
           initial="hidden"
           animate="visible"
           custom={0.4}
-          className="font-heading text-4xl font-bold leading-[1.1] tracking-tight text-white sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl"
+          className="font-heading italic text-4xl font-bold leading-[1.1] tracking-tight text-white sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl"
         >
           <span className="block">{t("hero.title")}</span>
         </motion.h1>
@@ -234,7 +234,7 @@ export default function Hero() {
           className="mt-10 sm:mt-12"
         >
           <motion.a
-            href="#sessions"
+            href="#experience"
             whileHover={{ scale: 1.04 }}
             whileTap={{ scale: 0.97 }}
             className="group relative inline-flex items-center gap-2.5 overflow-hidden rounded-full bg-rose px-8 py-3.5 text-sm font-semibold text-white shadow-lg shadow-rose/25 transition-colors duration-300 hover:bg-rose-dark sm:px-10 sm:py-4 sm:text-base"
@@ -259,6 +259,12 @@ export default function Hero() {
               />
             </svg>
           </motion.a>
+          <a
+            href="#sessions"
+            className="mt-4 inline-block text-sm text-white/70 underline decoration-white/30 underline-offset-4 transition-colors duration-300 hover:text-rose-light hover:decoration-rose-light/50"
+          >
+            Of bekijk de sessies &rarr;
+          </a>
         </motion.div>
       </div>
 

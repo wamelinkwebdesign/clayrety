@@ -6,13 +6,43 @@
     "sessions": "Sessies",
     "testimonials": "Testimonials",
     "contact": "Contact",
-    "book": "Boek nu"
+    "book": "Boek je sessie"
   },
   "hero": {
-    "title": "Himalaya Klankschaalsessies",
-    "subtitle": "Klankschaalsessies brengen ons in een aangename stemming en zorgen voor meditatieve ontspanning.",
-    "cta": "Ontdek de sessies",
-    "scrollDown": "Scroll naar beneden"
+    "eyebrow": "Himalaya Klankschaalsessies in Amsterdam",
+    "title": "Vind stilte in klank",
+    "subtitle": "Ervaar diepe ontspanning door de helende trillingen van authentieke Himalaya klankschalen. Geen ervaring nodig — kom zoals je bent.",
+    "cta": "Ervaar het zelf",
+    "scrollDown": "Ontdek meer"
+  },
+  "experience": {
+    "badge": "Wat is een klankschaalsessie?",
+    "title": "Sluit je ogen. Laat los. Voel.",
+    "intro": "Stel je voor: je ligt comfortabel op een matras, je ogen zijn gesloten, en langzaam vullen warme, diepe klanken de ruimte. De trillingen van Himalaya klankschalen resoneren door je lichaam — spanning lost op, gedachten komen tot rust, en je bereikt een staat van diepe ontspanning die je zelden ervaart in het dagelijks leven.",
+    "noExperience": "Geen ervaring nodig. Geen speciale kleding. Gewoon komen zoals je bent.",
+    "steps": {
+      "arrive": {
+        "title": "Aankomst & thee",
+        "description": "Je wordt verwelkomd met een kopje thee in een warme, intieme ruimte. Even tot rust komen."
+      },
+      "session": {
+        "title": "De sessie",
+        "description": "Liggend op een comfortabel matras word je omhuld door de klanken van Himalaya klankschalen en magische instrumenten."
+      },
+      "after": {
+        "title": "Nazorg & integratie",
+        "description": "Na afloop is er ruimte om de ervaring te laten bezinken, met soep en een persoonlijk gesprek."
+      }
+    }
+  },
+  "socialProof": {
+    "rating": "5.0",
+    "sessions": "500+",
+    "sessionsLabel": "sessies gegeven",
+    "quote": "Het is alles wat je niet wist dat je nodig hebt.",
+    "quoteAuthor": "— Jeantine & Mark",
+    "trained": "Opgeleid in Nepal",
+    "trainedLabel": "Himalaya traditie"
   },
   "howItWorks": {
     "badge": "De Werking",
@@ -46,11 +76,12 @@
     "badge": "Sessies",
     "title": "Ontdek onze sessies",
     "subtitle": "Elke sessie is een unieke reis naar innerlijke rust en balans",
+    "popular": "Meest gekozen",
     "perPerson": "p.p.",
     "perSession": "per sessie",
     "duration": "min",
     "maxPersons": "max. {count} personen",
-    "bookNow": "Reserveer",
+    "bookNow": "Kies deze sessie",
     "items": {
       "group": {
         "category": "Connectie",
@@ -105,8 +136,8 @@
     "cancellation": "Kunt u niet komen? Laat het ons minimaal 24 uur van tevoren weten, anders moeten wij helaas de gereserveerde tijd in rekening brengen."
   },
   "testimonials": {
-    "badge": "Testimonials",
-    "title": "Ervaringen van onze gasten",
+    "badge": "Ervaringen",
+    "title": "Wat onze gasten zeggen",
     "items": [
       {
         "name": "Jeantine & Mark",
@@ -150,10 +181,46 @@
       }
     ]
   },
+  "faq": {
+    "badge": "Veelgestelde vragen",
+    "title": "Alles wat je wilt weten",
+    "items": [
+      {
+        "question": "Wat is een klankschaalsessie precies?",
+        "answer": "Je ligt comfortabel op een matras terwijl Himalaya klankschalen om je heen worden bespeeld. De trillingen resoneren door je lichaam en brengen je in een staat van diepe ontspanning — vergelijkbaar met een diepe meditatie, maar dan zonder dat je iets hoeft te doen."
+      },
+      {
+        "question": "Heb ik ervaring nodig?",
+        "answer": "Helemaal niet. Er is geen ervaring of voorbereiding nodig. Je hoeft alleen maar te komen en je over te geven aan de klanken. De klankschalen doen het werk voor je."
+      },
+      {
+        "question": "Wat moet ik meenemen of aantrekken?",
+        "answer": "Draag comfortabele kleding waarin je kunt liggen. Alles wat je nodig hebt — matras, dekens, kussens, thee — wordt voor je klaargelegd."
+      },
+      {
+        "question": "Is het veilig? Zijn er contra-indicaties?",
+        "answer": "Klankschaalsessies zijn veilig voor de meeste mensen. Ze zijn minder geschikt bij zwangerschap, hartproblemen, een pacemaker, hoge bloeddruk, trombose of spataderen. Twijfel je? Neem dan even contact op."
+      },
+      {
+        "question": "Wat als ik in slaap val?",
+        "answer": "Dat is helemaal prima en gebeurt regelmatig! Het betekent dat je lichaam precies krijgt wat het nodig heeft. De klankschalen werken ook als je slaapt."
+      },
+      {
+        "question": "Hoe vaak zou ik moeten komen?",
+        "answer": "Dat is helemaal aan jou. Sommige gasten komen maandelijks als vast ritueel, anderen bij behoefte. Al na één sessie voel je het verschil."
+      }
+    ],
+    "callout": "Nog een vraag?",
+    "calloutLink": "Neem contact op"
+  },
   "booking": {
     "badge": "Reserveren",
     "title": "Boek je sessie",
     "subtitle": "Kies je sessie en vind een moment dat bij je past",
+    "step1": "Kies je sessie",
+    "step2": "Je gegevens",
+    "next": "Verder",
+    "back": "Terug",
     "form": {
       "name": "Naam",
       "email": "E-mailadres",
@@ -163,7 +230,8 @@
       "message": "Bericht (optioneel)",
       "submit": "Reservering aanvragen",
       "success": "Bedankt! Je aanvraag is verzonden. We nemen zo snel mogelijk contact op.",
-      "selectSession": "Selecteer een sessie"
+      "selectSession": "Selecteer een sessie",
+      "whatsapp": "Of boek via WhatsApp"
     }
   },
   "contact": {
@@ -176,6 +244,10 @@
     "locationValue": "Amsterdam",
     "instagram": "Instagram",
     "instagramHandle": "@clayrety"
+  },
+  "stickyCta": {
+    "label": "Boek nu",
+    "price": "vanaf €35"
   },
   "footer": {
     "rights": "Alle rechten voorbehouden.",

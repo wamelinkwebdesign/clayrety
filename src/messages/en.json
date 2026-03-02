@@ -6,13 +6,43 @@
     "sessions": "Sessions",
     "testimonials": "Testimonials",
     "contact": "Contact",
-    "book": "Book now"
+    "book": "Book a session"
   },
   "hero": {
-    "title": "Himalayan Sound Bowl Sessions",
-    "subtitle": "Sound bowl sessions bring us into a pleasant mood and provide meditative relaxation.",
-    "cta": "Discover the sessions",
-    "scrollDown": "Scroll down"
+    "eyebrow": "Himalayan Sound Bowl Sessions in Amsterdam",
+    "title": "Find stillness in sound",
+    "subtitle": "Experience deep relaxation through the healing vibrations of authentic Himalayan sound bowls. No experience needed — come as you are.",
+    "cta": "Experience it yourself",
+    "scrollDown": "Discover more"
+  },
+  "experience": {
+    "badge": "What is a sound bowl session?",
+    "title": "Close your eyes. Let go. Feel.",
+    "intro": "Imagine: you lie comfortably on a mattress, your eyes are closed, and slowly warm, deep sounds fill the space. The vibrations of Himalayan sound bowls resonate through your body — tension dissolves, thoughts come to rest, and you reach a state of deep relaxation you rarely experience in everyday life.",
+    "noExperience": "No experience needed. No special clothing. Just come as you are.",
+    "steps": {
+      "arrive": {
+        "title": "Arrival & tea",
+        "description": "You are welcomed with a cup of tea in a warm, intimate space. A moment to settle in."
+      },
+      "session": {
+        "title": "The session",
+        "description": "Lying on a comfortable mattress, you are enveloped by the sounds of Himalayan sound bowls and magical instruments."
+      },
+      "after": {
+        "title": "Aftercare & integration",
+        "description": "Afterwards, there is space to let the experience settle, with soup and a personal conversation."
+      }
+    }
+  },
+  "socialProof": {
+    "rating": "5.0",
+    "sessions": "500+",
+    "sessionsLabel": "sessions given",
+    "quote": "It's everything you didn't know you needed.",
+    "quoteAuthor": "— Jeantine & Mark",
+    "trained": "Trained in Nepal",
+    "trainedLabel": "Himalayan tradition"
   },
   "howItWorks": {
     "badge": "How It Works",
@@ -46,11 +76,12 @@
     "badge": "Sessions",
     "title": "Discover our sessions",
     "subtitle": "Each session is a unique journey to inner peace and balance",
+    "popular": "Most popular",
     "perPerson": "p.p.",
     "perSession": "per session",
     "duration": "min",
     "maxPersons": "max. {count} persons",
-    "bookNow": "Reserve",
+    "bookNow": "Choose this session",
     "items": {
       "group": {
         "category": "Connection",
@@ -105,8 +136,8 @@
     "cancellation": "Cannot make it? Please let us know at least 24 hours in advance, otherwise we will unfortunately have to charge for the reserved time."
   },
   "testimonials": {
-    "badge": "Testimonials",
-    "title": "Experiences from our guests",
+    "badge": "Experiences",
+    "title": "What our guests say",
     "items": [
       {
         "name": "Jeantine & Mark",
@@ -150,10 +181,46 @@
       }
     ]
   },
+  "faq": {
+    "badge": "Frequently asked questions",
+    "title": "Everything you want to know",
+    "items": [
+      {
+        "question": "What exactly is a sound bowl session?",
+        "answer": "You lie comfortably on a mattress while Himalayan sound bowls are played around you. The vibrations resonate through your body and bring you into a state of deep relaxation — similar to deep meditation, but without having to do anything."
+      },
+      {
+        "question": "Do I need any experience?",
+        "answer": "Not at all. No experience or preparation is needed. You just need to come and surrender to the sounds. The sound bowls do the work for you."
+      },
+      {
+        "question": "What should I bring or wear?",
+        "answer": "Wear comfortable clothing you can lie down in. Everything you need — mattress, blankets, pillows, tea — is prepared for you."
+      },
+      {
+        "question": "Is it safe? Are there contraindications?",
+        "answer": "Sound bowl sessions are safe for most people. They are less suitable for pregnancy, heart problems, a pacemaker, high blood pressure, thrombosis, or varicose veins. Not sure? Feel free to reach out."
+      },
+      {
+        "question": "What if I fall asleep?",
+        "answer": "That's perfectly fine and happens regularly! It means your body is getting exactly what it needs. The sound bowls work even while you sleep."
+      },
+      {
+        "question": "How often should I come?",
+        "answer": "That's entirely up to you. Some guests come monthly as a fixed ritual, others as needed. You'll feel the difference after just one session."
+      }
+    ],
+    "callout": "Still have a question?",
+    "calloutLink": "Get in touch"
+  },
   "booking": {
     "badge": "Book",
     "title": "Book your session",
     "subtitle": "Choose your session and find a moment that suits you",
+    "step1": "Choose your session",
+    "step2": "Your details",
+    "next": "Continue",
+    "back": "Back",
     "form": {
       "name": "Name",
       "email": "Email address",
@@ -163,7 +230,8 @@
       "message": "Message (optional)",
       "submit": "Request reservation",
       "success": "Thank you! Your request has been sent. We will contact you as soon as possible.",
-      "selectSession": "Select a session"
+      "selectSession": "Select a session",
+      "whatsapp": "Or book via WhatsApp"
     }
   },
   "contact": {
@@ -176,6 +244,10 @@
     "locationValue": "Amsterdam",
     "instagram": "Instagram",
     "instagramHandle": "@clayrety"
+  },
+  "stickyCta": {
+    "label": "Book now",
+    "price": "from €35"
   },
   "footer": {
     "rights": "All rights reserved.",

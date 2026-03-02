@@ -139,7 +139,7 @@ export default function Navigation() {
             <LanguageToggle locale={locale} onSwitch={switchLocale} />
 
             <motion.button
-              onClick={() => scrollToSection("#contact")}
+              onClick={() => scrollToSection("#booking")}
               className="relative overflow-hidden rounded-full bg-rose px-6 py-2.5 text-sm font-semibold text-white shadow-[0_2px_16px_rgba(223,139,163,0.35)] transition-shadow hover:shadow-[0_4px_24px_rgba(223,139,163,0.5)]"
               whileHover={{ scale: 1.04 }}
               whileTap={{ scale: 0.97 }}
@@ -372,7 +372,7 @@ function MobileMenu({
 
         {/* Mobile CTA */}
         <motion.button
-          onClick={() => onNavigate("#contact")}
+          onClick={() => onNavigate("#booking")}
           className="mt-8 rounded-full bg-rose px-10 py-3.5 text-base font-semibold text-white shadow-[0_4px_24px_rgba(223,139,163,0.35)]"
           initial={{ opacity: 0, y: 30, filter: "blur(8px)" }}
           animate={{ opacity: 1, y: 0, filter: "blur(0px)" }}
